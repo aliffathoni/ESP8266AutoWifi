@@ -6,7 +6,8 @@ ESP Auto Connect Wifi without hardcode. As for now this code only works on ESP82
 Make sure to download and install these library on your Arduino IDE to ESPAutoWifi
 
  - [ESPAsyncWebServer](https://github.com/me-no-dev/ESPAsyncWebServer)
- - [AsyncTCP](https://github.com/me-no-dev/AsyncTCP)
+ - [ESPAsyncTCP](https://github.com/me-no-dev/ESPAsyncTCP)
+ - [Preferences.h](https://github.com/vshymanskyy/Preferences)
 
 
 ## Simple shortest code
