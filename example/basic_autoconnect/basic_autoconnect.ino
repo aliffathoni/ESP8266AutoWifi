@@ -18,7 +18,7 @@ void setup() {
 
   while(wf.checkConnection()){
     Serial.println("Please connect to "+wf.getAPSSID());
-    Serial.println("And proceed to 192. 168.4.1 on your browser\n");
+    Serial.println("And proceed to 192.168.4.1 on your browser\n");
     delay(1000);
   }
 
