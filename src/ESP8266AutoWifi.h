@@ -76,12 +76,6 @@ class ESPAutoWifi {
                     save SSID and Password for ESP to connect
         */
         void startConfig();
-
-        /*!
-            @brief  Get ESP AP IP Address to connect with the web portal
-            @return ESP AP IP Address
-        */
-        String getAPIP();
         
         /*!
             @brief  Get ESP saved SSID to connect with WiFi

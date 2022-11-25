@@ -1,4 +1,4 @@
-#include <ESPAutoWifi.h>
+#include <ESP8266AutoWifi.h>
 
 ESPAutoWifi wf;
 

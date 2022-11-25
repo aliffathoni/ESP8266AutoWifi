@@ -94,17 +94,12 @@ void ESPAutoWifi::autoConnect(){
 
 void ESPAutoWifi::startAP(){
     WiFi.mode(WIFI_AP);
-    WiFi.softAPConfig(IP_Address, Gateway, Subnet, DNS);
+    WiFi.softAPConfig(IP_Address, Gateway, IPAddress(255, 255, 255, 0));
     if(_ap_password == ""){
         WiFi.softAP(_ap_ssid.c_str(), NULL);
     } else{
         WiFi.softAP(_ap_ssid.c_str(), _ap_password.c_str());
     }
-}
-
-String ESPAutoWifi::getAPIP(){
-    IPAddress APIP = WiFi.softAPIP();
-    return String(APIP);
 }
 
 void ESPAutoWifi::startConfig(){
