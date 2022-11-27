@@ -1,6 +1,6 @@
 # ESP-Auto-Wifi
 
-ESP Auto Connect Wifi without hardcode. As for now this code only works on ESP8266 architecture, for ESP32 go [here](https://github.com/aliffathoni/ESPAutoWifi).
+ESP Auto Connect Wifi without hardcode. Note that this code only works on ESP8266 architecture (includeing ESP01 and ESP12 series), for ESP32 go [here](https://github.com/aliffathoni/ESPAutoWifi).
 
 ## Dependencies
 
