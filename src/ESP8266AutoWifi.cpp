@@ -91,8 +91,10 @@ void ESPAutoWifi::autoConnect(){
         startAP();
         startConfig();
     }
-    while(checkCredentials() != true){
-        //do nothing
+    while(!checkCredentials()){
+        Serial.println("Please connect to "+getAPSSID());
+        Serial.println("And proceed to 192.168.4.1 on your browser\n");
+        vTaskDelay(2500);
     }
     connect();
 }
